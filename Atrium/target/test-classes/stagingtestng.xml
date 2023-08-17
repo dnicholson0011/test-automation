@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Staging Suite">
+    <test name="StagingTest">
+        <classes>
+            <class name="com.herokuapp.staging.stagingtests.StageOne"></class>
+        </classes>
+    </test>
+</suite>

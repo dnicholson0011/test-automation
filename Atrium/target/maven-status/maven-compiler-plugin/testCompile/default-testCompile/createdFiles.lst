@@ -1,0 +1,7 @@
+com/herokuapp/test/javascriptalerts/JavaScriptAlertsTest.class
+com/herokuapp/utils/testutilities/TestUtilities.class
+com/herokuapp/utils/base/BaseTest.class
+com/herokuapp/utils/browserdriverfactory/BrowserDriverFactory.class
+com/herokuapp/test/multiplewindows/MultipleWindowsTest.class
+com/herokuapp/staging/stagingtests/StageOne.class
+com/herokuapp/staging/base/BaseTest.class

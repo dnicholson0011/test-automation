@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T16:05:43 CDT" name="Test Suite" finished-at="2023-07-19T16:05:51 CDT" duration-ms="8493">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T16:05:43 CDT" name="Chrome Regression" finished-at="2023-07-19T16:05:49 CDT" duration-ms="5746">
+      <class name="com.herokuapp.test.multiplewindows.MultipleWindowsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.test.multiplewindows.MultipleWindowsTest@4b14c583]" started-at="2023-07-19T16:05:43 CDT" name="setUp" finished-at="2023-07-19T16:05:47 CDT" duration-ms="3604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@37afeb11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multipleWindowTests()[pri:0, instance:com.herokuapp.test.multiplewindows.MultipleWindowsTest@4b14c583]" started-at="2023-07-19T16:05:47 CDT" name="multipleWindowTests" finished-at="2023-07-19T16:05:47 CDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleWindowTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.test.multiplewindows.MultipleWindowsTest@4b14c583]" started-at="2023-07-19T16:05:47 CDT" name="tearDown" finished-at="2023-07-19T16:05:47 CDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.test.multiplewindows.MultipleWindowsTest -->
+      <class name="com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest@79b06cab]" started-at="2023-07-19T16:05:47 CDT" name="setUp" finished-at="2023-07-19T16:05:48 CDT" duration-ms="1719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@37afeb11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="javaScriptAlertTest()[pri:0, instance:com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest@79b06cab]" started-at="2023-07-19T16:05:48 CDT" name="javaScriptAlertTest" finished-at="2023-07-19T16:05:49 CDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest@79b06cab]" started-at="2023-07-19T16:05:49 CDT" name="tearDown" finished-at="2023-07-19T16:05:49 CDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest -->
+    </test> <!-- Chrome Regression -->
+    <test started-at="2023-07-19T16:05:43 CDT" name="Firefox Regression" finished-at="2023-07-19T16:05:51 CDT" duration-ms="8493">
+      <class name="com.herokuapp.test.multiplewindows.MultipleWindowsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.test.multiplewindows.MultipleWindowsTest@10e41621]" started-at="2023-07-19T16:05:43 CDT" name="setUp" finished-at="2023-07-19T16:05:47 CDT" duration-ms="4296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@515aebb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="multipleWindowTests()[pri:0, instance:com.herokuapp.test.multiplewindows.MultipleWindowsTest@10e41621]" started-at="2023-07-19T16:05:47 CDT" name="multipleWindowTests" finished-at="2023-07-19T16:05:47 CDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleWindowTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.test.multiplewindows.MultipleWindowsTest@10e41621]" started-at="2023-07-19T16:05:47 CDT" name="tearDown" finished-at="2023-07-19T16:05:48 CDT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.test.multiplewindows.MultipleWindowsTest -->
+      <class name="com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest@353d0772]" started-at="2023-07-19T16:05:48 CDT" name="setUp" finished-at="2023-07-19T16:05:50 CDT" duration-ms="2102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://the-internet.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@515aebb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="javaScriptAlertTest()[pri:0, instance:com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest@353d0772]" started-at="2023-07-19T16:05:50 CDT" name="javaScriptAlertTest" finished-at="2023-07-19T16:05:50 CDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest@353d0772]" started-at="2023-07-19T16:05:50 CDT" name="tearDown" finished-at="2023-07-19T16:05:51 CDT" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.test.javascriptalerts.JavaScriptAlertsTest -->
+    </test> <!-- Firefox Regression -->
+  </suite> <!-- Test Suite -->
+</testng-results>
